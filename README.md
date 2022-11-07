@@ -24,7 +24,7 @@ Things you may want to cover:
 * ...
 
 
-<!-- dockerを使用してrailsを立ち上げる。
+dockerを使用してrailsを立ち上げる。
 Dockerfile, Gemfile, Gemfile.lock, docker-compose.ymlを作る
 イメージをビルドし, コンテナを作り, Rails newする
 Gemfileが更新されるのでイメージを作り直す
@@ -64,4 +64,4 @@ docker-compose build
 
 docker-compose up
 
-docker-compose run web rake db:create -->
+docker-compose run web rake db:create
